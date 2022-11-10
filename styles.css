@@ -57,6 +57,7 @@ body {
   width: 100px;
   align-items: center;
   background-color: #3882f6;
+  border: 0;
   border-radius: 10px;
   padding: 10px 5px;
   color: white;
@@ -94,6 +95,11 @@ body {
 
 .third-container {
   background-color: #E5E7EB;
+  margin-bottom: 30px;
+}
+
+.fourth-container {
+  margin-top: 30px;
 }
 
 .quote {
@@ -119,4 +125,53 @@ body {
 
 .container {
   margin-bottom: 100px;
+}
+
+.call-to-action-container {
+  display: flex;
+  background-color: #3882F6;
+  justify-content: center;
+  padding: 2rem;
+  margin: 5% 15%;
+  border-radius: 0.5rem;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.call-to-action-title {
+  font-weight: bold;
+}
+
+.call-to-action-subtext {
+  color:rgb(220, 220, 220)
+}
+
+.call-to-action-title,
+.call-to-action-subtext {
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.call-to-action-signup {
+  background-color: #3882f6;
+  border-color: white;
+  height: 50%;
+  margin: auto 5% auto auto;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 400;
+  justify-content: flex-end;
+}
+
+.footer {
+  text-align: center;
+  background-color:#1F2937;
+  color:#E5E7EB;
+  font-size: 0.75rem;
+  padding: 40px 0;
 }
